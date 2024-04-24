@@ -14,7 +14,7 @@ const extendHex = (shortHex) => {
 	let g=shortHex[1];
 	let b=shortHex[2];
 	}
-	let newhexcode=`#${r}${r}${g}${g}${b}${b}`;
+	newhexcode=`#${r}${r}${g}${g}${b}${b}`;
 		return newhexcode;
 };
 
